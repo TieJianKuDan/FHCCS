@@ -1,7 +1,8 @@
 % Encrypt and decrypt grayscale map tests
 clear;clc;close all;
-addpath("./libs")
-addpath("./pictures")
+addpath("./libs");
+addpath("./pictures");
+show_banner();
 
 K_1 = [1 1 1 1 1 1 1 1];
 K_2 = [2 2 2 2 2 2 2 2];
